@@ -1,0 +1,1 @@
+msiexec /i c:\junkreporter.msi /quiet /qn /norestart
