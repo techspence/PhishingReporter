@@ -14,9 +14,9 @@ Basic Outline:
 
 2) Edit the HKLM:SOFTWARE\wow6432node\Microsoft\Junk E-mail Reporting\Addins BccEmailAddress Registry key to include any email address you would like
 
-3) On a test machine, add the 'Report Phishing' button to any ribbons you would like
+3) Add the 'Report Phishing' button to any ribbons you would like (eg, the Home ribbon, Message Ribbon)
 
-4) Copy olkmailread.officeUI and olkexplorer.officeUI from C:\users\%username%\AppData\Local\Microsoft\Office on the test machine to every machine you want the Outlook button on
+4) Copy your customized olkmailread.officeUI and olkexplorer.officeUI files from C:\users\%username%\AppData\Local\Microsoft\Office to every machine you want the Outlook button on. You could also store these files on a network share and create a login script to push these files to the user.
 
 4) Restart Outlook
 
