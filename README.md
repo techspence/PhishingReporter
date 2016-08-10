@@ -20,4 +20,4 @@ I am a novice scripter so take this code with a grain of salt, there very well m
 
 5) Restart Outlook
 
-### By default when you 'Report' the Phishing Email it will send an email to abuse@messaging.microsoft.com (If you want to avoid this I suggest you either find where in the Add-in code the email is configured and change it, or do what I did, create a rule in your mail filtering application to block those emails on the way out)
+By default when you 'Report' the Phishing Email it will send an email to abuse@messaging.microsoft.com (If you want to avoid this I suggest you either find where in the Add-in code the email is configured and change it, or do what I did, create a rule in your mail filtering application to block those emails on the way out)
