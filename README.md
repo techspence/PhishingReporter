@@ -2,7 +2,7 @@
 
 ** This is still very much in development **
 
-Report phishing emails and have the notification sent to your security team. A button is created in Outlook using the Microsoft Junk Reporting Add-in and Powershell for deployment across an enterprise. This is not my idea, I have taken inspiration from[nerdosaur.com]( http://www.nerdosaur.com/network-security/add-a-report-phishing-button-in-outlook) and hacked it to fit what I need. For step by Step instructions, see the blog post linked above.
+Report phishing emails and have the notification sent to your security team. A button is created in Outlook using the Microsoft Junk Reporting Add-in and Powershell for deployment across an enterprise. This is not my idea, I have taken inspiration from [nerdosaur.com](http://www.nerdosaur.com/network-security/add-a-report-phishing-button-in-outlook) and hacked it to fit what I need. For step by Step instructions, see the blog post linked above.
 
 This does not work on 64 bit installs of office. There is a 64 bit version of the Junk Reporting Add-in but I have not tested it.
 
