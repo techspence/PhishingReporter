@@ -18,6 +18,6 @@ I am a novice scripter so take this code with a grain of salt, there very well m
 
 4) Copy your customized olkmailread.officeUI and olkexplorer.officeUI files from `C:\users\%username%\AppData\Local\Microsoft\Office` to every machine you want the Outlook button on. You could also store these files on a network share and create a login script to push these files to the user.
 
-4) Restart Outlook
+5) Restart Outlook
 
-5) By default when you 'Report' the Phishing Email it will send an email to abuse@messaging.microsoft.com (If you want to avoid this I suggest you either find where in the Add-in code the email is configured and change it, or do what I did, create a rule in your mail filtering application to block those emails on the way out)
+### By default when you 'Report' the Phishing Email it will send an email to abuse@messaging.microsoft.com (If you want to avoid this I suggest you either find where in the Add-in code the email is configured and change it, or do what I did, create a rule in your mail filtering application to block those emails on the way out)
