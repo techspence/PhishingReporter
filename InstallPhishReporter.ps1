@@ -1,7 +1,7 @@
 ########################################################
 #####      Install Phish Reporter in Outlook       #####
 #####      1) Install Junk Reporter                #####
-#####      3) Copy ribbon files to pc			   #####
+#####      3) Copy ribbon files to pc		   #####
 #####	   2) Update BccEmailAddress Key           #####
 #####      4) Restart Outlook                      #####
 #####      Author: Spencer Alessi                  #####
@@ -54,9 +54,9 @@ Foreach ($pc in $computers) {
                 {
                     $username = $i.GetOwner().User
                     $userPath = "Users\$($username)\AppData\Local\Microsoft\Office"
-                    Write-Host "Copying " "$junkReporterPath\Client files\olkmailread.officeUI" " to: " \\$($pc.Name)\c$\$($userPath)                        
-                    Copy-Item -Force "$junkReporterPath\Client files\olkmailread.officeUI" -Destination \\$($pc.Name)\c$\$($userPath)
-                    Copy-Item -Force "$junkReporterPath\Client files\olkexplorer.officeUI" -Destination \\$($pc.Name)\c$\$($userPath)
+                    Write-Host "Copying " "$junkReporterPath\Client Files\olkmailread.officeUI" " to: " \\$($pc.Name)\c$\$($userPath)                        
+                    Copy-Item -Force "$junkReporterPath\Client Files\olkmailread.officeUI" -Destination \\$($pc.Name)\c$\$($userPath)
+                    Copy-Item -Force "$junkReporterPath\Client Files\olkexplorer.officeUI" -Destination \\$($pc.Name)\c$\$($userPath)
                 }
             }
              
